@@ -1,0 +1,42 @@
+.navbar{
+    z-index: 100000!important;
+    background-color: #fff;
+}
+.navbar-brand img{
+    width: 90px;
+}
+.nav-item{
+    position: relative;
+    margin:0 0.5rem;
+}
+
+.nav-item::after{
+    content: "";
+    width: 4px;
+    height:4px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #000;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    right:-10%;
+    top:40%;
+}
+.nav-item:last-child::after{
+    display: none
+}
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    color: #000!important;
+}
+.nav-link:hover{
+    color: #3a0ca3!important;
+}

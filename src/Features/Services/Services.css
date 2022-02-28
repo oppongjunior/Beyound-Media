@@ -1,0 +1,24 @@
+.services-section{
+    margin: 3rem 0rem;
+    padding:10rem 0rem;
+    background-color: #0f0033fd!important;
+    color: #fff;
+}
+.services-container{
+    padding: 3rem 0rem;
+}
+.services-section .title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size:2rem;
+    letter-spacing: 1px;
+    padding: 0 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.services-section .info{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}

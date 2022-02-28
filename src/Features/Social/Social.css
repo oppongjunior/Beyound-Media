@@ -1,0 +1,11 @@
+ 
+.social-section{
+    background-size: cover;
+    background-position: center;
+    height: fit-content
+}
+@media screen and (min-width:1024px) {
+    .social-section{
+        height: 60vh;
+    }
+}

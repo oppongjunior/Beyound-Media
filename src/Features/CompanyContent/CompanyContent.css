@@ -1,0 +1,13 @@
+.company-section .title {
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.company-section .info {
+    font-size: 0.95rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+}

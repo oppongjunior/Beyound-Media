@@ -1,0 +1,16 @@
+.footer-section .icon-box{
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 8px 6px 1px rgba(0,0,0,0.18);
+    cursor: pointer;
+
+}
+.footer-section p{
+    font-size: 0.7rem;
+    letter-spacing: .5px;
+    margin-top: 1rem;
+    font-weight: bold;
+}

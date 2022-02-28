@@ -1,0 +1,46 @@
+.social-box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+.social-box a{
+    text-decoration: none!important;
+}
+.social-box .icon-box{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.205);
+    color: #fff;
+}
+.social-box .icon-box:hover{
+    background-color: rgb(230, 39, 39);
+}
+.social-box .icon-box a{
+    color: #fff;
+    font-size: 2.2rem;
+}
+.social-box .title a{
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+
+.social-box .subtitle a{
+    color: #fff;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}

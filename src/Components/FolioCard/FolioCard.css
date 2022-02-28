@@ -1,0 +1,31 @@
+.owl-carousel-item{
+    width: 100%;
+    height:fit-content;
+    position: relative;
+}
+.info-box{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 3rem;
+    background-color: rgba(0, 0, 0, 0.089);
+}
+.info-box .title{
+    color: #fff;
+    display: block;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.info-box .category{
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+}

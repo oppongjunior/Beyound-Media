@@ -1,0 +1,38 @@
+.details-container .day {
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+}
+
+.details-container .date-month-year {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.details-container .box-header .category {
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+    color: #000;
+    text-decoration: none;
+}
+
+.details-container .post-box .box-footer {
+    border-top: 1px solid rgb(223, 223, 223);
+    padding: 0.5rem 1rem;
+}
+.details-container .title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    letter-spacing: 1px;
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+}
+.details-container .details-image{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
